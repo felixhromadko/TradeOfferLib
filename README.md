@@ -1,6 +1,8 @@
 TradeOfferLib
 =============
 
+# This project is now deprecated since the release of the [Official Trade Offer API](https://developer.valvesoftware.com/wiki/Steam_Web_API/IEconService)
+
 TradeOfferLib is a Java library that allows you to create, counter-offer, accept and decline trade offers on Steam. It should work for item that is normally tradable via Steam.
 
 This library can:
