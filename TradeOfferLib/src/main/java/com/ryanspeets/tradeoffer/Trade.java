@@ -204,7 +204,7 @@ public class Trade {
     {
         boolean ready;
         private transient boolean isPartner;
-        ArrayList<TradeAsset> assets;
+        pblic ArrayList<TradeAsset> assets;
         Map<String, GameContext> gameContextMap;
         public transient TradeStatus tradeStatus;
 
