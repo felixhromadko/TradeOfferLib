@@ -248,7 +248,7 @@ public class TradeUser {
                 Map.Entry pairs = (Map.Entry) stringStringEntry;
                 data.add(new BasicNameValuePair((String) pairs.getKey(), (String) pairs.getValue()));
             }
-            fetch(loginJson.transfer_url, "POST", data, false );
+            fetch("https://steamcommunity.com/login/transfer", "POST", data, false );
 
             return true;
         }
