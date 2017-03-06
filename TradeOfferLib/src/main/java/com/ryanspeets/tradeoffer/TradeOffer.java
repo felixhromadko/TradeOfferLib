@@ -1,9 +1,9 @@
 package com.ryanspeets.tradeoffer;
 
 public class TradeOffer {
-    protected int id;
-    protected boolean active;
-    protected TradeUser user;
+    public int id;
+    public boolean active;
+    public TradeUser user;
 
     protected TradeOffer(int id, boolean active, TradeUser user)
     {
